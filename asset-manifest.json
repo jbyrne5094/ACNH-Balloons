@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/ACNH-Balloons/static/css/main.495d8c85.chunk.css",
-    "main.js": "/ACNH-Balloons/static/js/main.9ad5ab4d.chunk.js",
-    "main.js.map": "/ACNH-Balloons/static/js/main.9ad5ab4d.chunk.js.map",
+    "main.js": "/ACNH-Balloons/static/js/main.a6ac36ea.chunk.js",
+    "main.js.map": "/ACNH-Balloons/static/js/main.a6ac36ea.chunk.js.map",
     "runtime-main.js": "/ACNH-Balloons/static/js/runtime-main.bbf7ea03.js",
     "runtime-main.js.map": "/ACNH-Balloons/static/js/runtime-main.bbf7ea03.js.map",
-    "static/js/2.49a8454c.chunk.js": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js",
-    "static/js/2.49a8454c.chunk.js.map": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js.map",
+    "static/js/2.f92907cf.chunk.js": "/ACNH-Balloons/static/js/2.f92907cf.chunk.js",
+    "static/js/2.f92907cf.chunk.js.map": "/ACNH-Balloons/static/js/2.f92907cf.chunk.js.map",
     "index.html": "/ACNH-Balloons/index.html",
-    "precache-manifest.da4a49731190010cdf43799f17ee43b1.js": "/ACNH-Balloons/precache-manifest.da4a49731190010cdf43799f17ee43b1.js",
+    "precache-manifest.99facbaedf71454c6e221e6b9f246542.js": "/ACNH-Balloons/precache-manifest.99facbaedf71454c6e221e6b9f246542.js",
     "service-worker.js": "/ACNH-Balloons/service-worker.js",
     "static/css/main.495d8c85.chunk.css.map": "/ACNH-Balloons/static/css/main.495d8c85.chunk.css.map",
-    "static/js/2.49a8454c.chunk.js.LICENSE.txt": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ACNH-Balloons/static/media/logo.5d5d9eef.svg"
+    "static/js/2.f92907cf.chunk.js.LICENSE.txt": "/ACNH-Balloons/static/js/2.f92907cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bbf7ea03.js",
-    "static/js/2.49a8454c.chunk.js",
+    "static/js/2.f92907cf.chunk.js",
     "static/css/main.495d8c85.chunk.css",
-    "static/js/main.9ad5ab4d.chunk.js"
+    "static/js/main.a6ac36ea.chunk.js"
   ]
 }
