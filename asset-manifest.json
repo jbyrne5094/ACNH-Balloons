@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/lilly-twitch/static/css/main.495d8c85.chunk.css",
-    "main.js": "/lilly-twitch/static/js/main.b6c52f90.chunk.js",
-    "main.js.map": "/lilly-twitch/static/js/main.b6c52f90.chunk.js.map",
-    "runtime-main.js": "/lilly-twitch/static/js/runtime-main.42107560.js",
-    "runtime-main.js.map": "/lilly-twitch/static/js/runtime-main.42107560.js.map",
-    "static/js/2.fda4c68c.chunk.js": "/lilly-twitch/static/js/2.fda4c68c.chunk.js",
-    "static/js/2.fda4c68c.chunk.js.map": "/lilly-twitch/static/js/2.fda4c68c.chunk.js.map",
-    "index.html": "/lilly-twitch/index.html",
-    "precache-manifest.559678fc05c4df32ae54980836a36985.js": "/lilly-twitch/precache-manifest.559678fc05c4df32ae54980836a36985.js",
-    "service-worker.js": "/lilly-twitch/service-worker.js",
-    "static/css/main.495d8c85.chunk.css.map": "/lilly-twitch/static/css/main.495d8c85.chunk.css.map",
-    "static/js/2.fda4c68c.chunk.js.LICENSE.txt": "/lilly-twitch/static/js/2.fda4c68c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/lilly-twitch/static/media/logo.5d5d9eef.svg"
+    "main.css": "/ACNH-Balloons/static/css/main.495d8c85.chunk.css",
+    "main.js": "/ACNH-Balloons/static/js/main.9ad5ab4d.chunk.js",
+    "main.js.map": "/ACNH-Balloons/static/js/main.9ad5ab4d.chunk.js.map",
+    "runtime-main.js": "/ACNH-Balloons/static/js/runtime-main.bbf7ea03.js",
+    "runtime-main.js.map": "/ACNH-Balloons/static/js/runtime-main.bbf7ea03.js.map",
+    "static/js/2.49a8454c.chunk.js": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js",
+    "static/js/2.49a8454c.chunk.js.map": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js.map",
+    "index.html": "/ACNH-Balloons/index.html",
+    "precache-manifest.da4a49731190010cdf43799f17ee43b1.js": "/ACNH-Balloons/precache-manifest.da4a49731190010cdf43799f17ee43b1.js",
+    "service-worker.js": "/ACNH-Balloons/service-worker.js",
+    "static/css/main.495d8c85.chunk.css.map": "/ACNH-Balloons/static/css/main.495d8c85.chunk.css.map",
+    "static/js/2.49a8454c.chunk.js.LICENSE.txt": "/ACNH-Balloons/static/js/2.49a8454c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ACNH-Balloons/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.42107560.js",
-    "static/js/2.fda4c68c.chunk.js",
+    "static/js/runtime-main.bbf7ea03.js",
+    "static/js/2.49a8454c.chunk.js",
     "static/css/main.495d8c85.chunk.css",
-    "static/js/main.b6c52f90.chunk.js"
+    "static/js/main.9ad5ab4d.chunk.js"
   ]
 }
