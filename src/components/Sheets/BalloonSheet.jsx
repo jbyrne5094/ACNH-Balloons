@@ -309,13 +309,7 @@ function Table({ columns, data }) {
           })}
         </tbody>
       </table>
-      <br />
-      <div>Showing the first 20 results of {rows.length} rows</div>
-      <div>
-        <pre>
-          <code>{JSON.stringify(state.filters, null, 2)}</code>
-        </pre>
-      </div>
+
     </>
   )
 }
@@ -338,58 +332,48 @@ function BalloonSheet() {
   const columns = React.useMemo(
     () => [
       {
-        Header: 'Name',
+        Header: 'Balloon Data',
         columns: [
           {
-            Header: 'First Name',
-            accessor: 'firstName',
-          },
-          {
-            Header: 'Last Name',
-            accessor: 'lastName',
-            // Use our custom `fuzzyText` filter on this column
+            Header: 'Time',
+            accessor: 'Time',
             filter: 'fuzzyText',
           },
-        ],
-      },
-      {
-        Header: 'Info',
-        columns: [
           {
-            Header: 'Age',
-            accessor: 'age',
-            Filter: SliderColumnFilter,
-            filter: 'equals',
+            Header: 'Date',
+            accessor: 'Date',
+            filter: 'fuzzyText',
           },
           {
-            Header: 'Visits',
-            accessor: 'visits',
-            Filter: NumberRangeColumnFilter,
-            filter: 'between',
-          },
-          {
-            Header: 'Status',
-            accessor: 'status',
+            Header: 'Color',
+            accessor: 'Color',
             Filter: SelectColumnFilter,
             filter: 'includes',
           },
           {
-            Header: 'Profile Progress',
-            accessor: 'progress',
-            Filter: SliderColumnFilter,
-            filter: filterGreaterThan,
+            Header: 'Location',
+            accessor: 'Location',
+            filter: 'fuzzyText',
+          },
+          {
+            Header: 'Contents',
+            accessor: 'Contents',
+            filter: 'fuzzyText',
           },
         ],
       },
     ],
     []
   )
-
-  const data = React.useMemo(() => makeData(100000), [])
+  const googleSheetsData = [
+    {Time: '10:03 PM', Date: '06/12/20', Color: 'yellow', Location: '5C (Right Side) bottom', Contents: '10,000 Bells'},
+    {Time: '10:52 PM', Date: '06/12/20', Color: 'yellow', Location: '5C', Contents: 'NA'}
+  ]
+  console.log(googleSheetsData)
 
   return (
-    <Styles>
-      <Table columns={columns} data={data} />
+    <Styles >
+      <Table columns={columns} data={googleSheetsData} />
     </Styles>
   )
 }

@@ -14,7 +14,9 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <BalloonSheet />
+          <Col>
+            <BalloonSheet />
+          </Col>
         </Row>
       </Col>
     </div>
