@@ -6,6 +6,11 @@ import matchSorter from 'match-sorter'
 
 import makeData from './makeData'
 
+const { GoogleSpreadsheet } = require('google-spreadsheet');
+
+// spreadsheet key is the long id in the sheets URL
+const doc = new GoogleSpreadsheet('1WmX-a3t3GDxkb7Yx1fxIKIJ5IIks4c8xj6raRGyCvKE');
+
 const Styles = styled.div`
   padding: 1rem;
 
